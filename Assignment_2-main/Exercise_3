@@ -1,9 +1,0 @@
-to_do = []
-def add_task(task):
-    to_do.append(task)
-def show_tasks():
-    print(to_do)
-
-add_task('homeowrk')
-add_task('clean')
-show_tasks()
