@@ -1,0 +1,44 @@
+# Annotation File Analysis
+
+This project analyzes a folder of annotation files that follow a specific naming convention. The analysis includes counting files, validating file names, organizing files by date, and extracting metadata such as satellite numbers and unique regions.
+
+## Project Overview
+
+The annotation files follow the naming convention:
+
+- **DATE**: Expressed as `YYYYMMDD` (e.g., `20240623`, `20230321`).
+- **TIME**: Expressed as `HHMMSS` (e.g., `2151207`).
+- **SATELLITE_NUMBER**: An integer representing the satellite number (e.g., `SN29`).
+- **VERSION**: Provides the version of the pipeline (e.g., `1_7_0`).
+- **UNIQUE_REGION**: A string representing the unique region (e.g., `SATL-2KM-10N_596_4134`).
+
+### Analysis Tasks
+
+1. **File Count**: Count the total number of annotation files.
+
+    - BE SURE TO CHANGE THE PATH HERE FROM MY PATH TO THE PATH WHERE THE FILES ARE IN YOUR DIRECTORY!!
+
+2. **Validation**: Identify how many files follow the naming convention.
+3. **Annotations by Month/Year**: Count the number of annotation files per month and year.
+4. **Folder Organization**: Create a new folder structure with subfolders corresponding to each month.
+
+    - BE SURE TO CHANGE THE PATH FOR THE NEW FOLDER TO WHERE YOU WANT IT TO APPEAR IN YOUR DIRECTORY
+
+5. **File Listing**: Print all annotation files from the most recent to the oldest.
+6. **Satellite Analysis**: Count how many different satellites are present, how many annotations there are per satellite, and identify the satellite used in the most recent annotation.
+7. **Unique Regions**: Count the number of unique regions found in the annotations.
+
+## Project Structure
+
+- `Assignment_4.ipynb`: The main notebook file that contains the code for analyzing the annotation files.
+
+## Prerequisites
+
+Ensure you have the following Python libraries installed:
+- `os`
+- `glob`
+- `shutil`
+- `numpy`
+- `scipy`
+- `matplotlib.pyplot`
+- `math`
