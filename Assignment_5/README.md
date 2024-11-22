@@ -27,13 +27,14 @@ The annotation files follow a naming convention and are analyzed using pattern-m
   - A list of file names.
   - Alternatively, dictionaries containing the file name and corresponding date.
 
-### Task 3: Serialization
+### Task 2 a and b: Serialization
 - Save the annotation dictionary in JSON format and reload it to verify correctness.
 - Save the dictionary using Pickle for more efficient storage and reload it to verify correctness.
 
-### Task 4: Sort Annotations for the Second Half of 2024
+### Task 3: Sort Annotations for the Second Half of 2024
 - Extract annotations from July to December 2024 and sort them chronologically by date.
 - Print annotations in ascending order of their creation date.
+- In the example case, there are no file in the second half of the year.
 
 ## Project Structure
 
